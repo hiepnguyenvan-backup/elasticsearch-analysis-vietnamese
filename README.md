@@ -5,6 +5,12 @@ CocCoc team for their Search Engine and Ads systems.
 
 The plugin provides `vi_analyzer` analyzer, `vi_tokenizer` tokenizer and `vi_stop` stop filter. The `vi_analyzer` is composed of the `vi_tokenizer` tokenizer and `stop` filter.
 
+**Notice:** after install [C++ tokenizer for Vietnamese](https://github.com/coccoc/coccoc-tokenizer), you **must** copy `libcoccoc_tokenizer_jni.so` to `java.library.path`, for example:
+
+```
+sudo cp libcoccoc_tokenizer_jni.so /usr/lib/
+```
+
 ## Example output
 
 ```
