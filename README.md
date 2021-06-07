@@ -108,7 +108,12 @@ mvn package
 ### Step 3: Installation the plugin on Elasticsearch
 
 ```sh
-bin/elasticsearch-plugin install file://target/releases/elasticsearch-analysis-vietnamese-7.11.2.zip
+[path-to-elasticsearch-plugin] install [build-file]
+```
+
+**ex:**
+```sh
+sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install file:///home/hiepnguyen/Downloads/elasticsearch-analysis-vietnamese/target/releases/elasticsearch-analysis-vietnamese-7.12.1.zip
 ```
 
 ## Compatible Versions
