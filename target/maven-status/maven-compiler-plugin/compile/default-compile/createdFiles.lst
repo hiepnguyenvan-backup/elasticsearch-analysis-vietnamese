@@ -1,0 +1,15 @@
+org/apache/lucene/analysis/vi/VietnameseTokenizer.class
+org/elasticsearch/analysis/VietnameseConfig.class
+org/apache/lucene/analysis/vi/VietnameseAnalyzer.class
+com/coccoc/Tokenizer.class
+com/coccoc/Token.class
+com/coccoc/Unsafe.class
+org/apache/lucene/analysis/vi/VietnameseAnalyzer$DefaultSetHolder.class
+org/apache/lucene/analysis/vi/VietnameseTokenizerImpl.class
+org/elasticsearch/index/analysis/VietnameseStopTokenFilterFactory.class
+com/coccoc/Tokenizer$TokenizeOption.class
+com/coccoc/Token$SegType.class
+com/coccoc/Token$Type.class
+org/elasticsearch/index/analysis/VietnameseAnalyzerProvider.class
+org/elasticsearch/plugin/analysis/vi/AnalysisVietnamesePlugin.class
+org/elasticsearch/index/analysis/VietnameseTokenizerFactory.class
